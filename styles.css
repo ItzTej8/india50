@@ -1,0 +1,163 @@
+.odometer {
+  font-weight: 450;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: white;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #ff2580;
+  height: 90%;
+  margin: 0 0;
+}
+
+.box {
+	border: 2px solid rgba(255, 54, 114, 0.753);
+	display: flex;
+	flex-wrap: nowrap;
+	height: auto;
+	text-overflow: ellipsis;
+	height: 10%;
+	WIDTH: :19.2%;
+	width: 20%;
+	margin: 0;
+	padding: 0;
+}
+
+.cnt {
+	text-align: center;
+	text-align: justify;
+	-moz-text-align-last: center;
+	text-align-last: center;
+	padding: 11px 5px;
+	height: 100%;
+	font-family: 'Roboto Condensed', sans-serif;
+	background: yellow;
+}
+
+.box img {
+	width: 72;
+	height: 100%;
+	display: flex;
+	object-fit: cover;
+	padding: 0px;
+	border-radius: 45px;
+	background: green;
+	margin: 0px 0px;
+}
+
+.box .heading, .box .text {
+	width: fit-content;
+	padding: 0px 0px;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 400;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+h2 {
+	text-align: left;
+	padding: 6 6;
+	font-size: 20px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	font-weight: normal;
+	color: black;
+}
+
+
+p {
+	margin: 2px 0;
+	padding: 0 5px;
+	font-size: x-large;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.footer {
+	width: 100%;
+	height: 30px;
+	border: 2px solid darkgray;
+	top: -1px;
+	position: relative;
+}
+
+#title {
+	width: 100%;
+	/* height: ; */
+	/* font-size: 51; */
+	/* top: 0; */
+	position: relative;
+}
+
+
+
+#title h1 {
+	width: inherit;
+	font-size: 40;
+	top: 18px;
+	text-align: center;
+	position: relative;
+	font-family: 'Roboto', sans-serif;
+	background-color: #fff0;
+}
+
+india {
+    background-image: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      color-stop(1, #ff9933),
+      color-stop(0.15, #138808)
+    );
+    background-image: gradient(
+      linear,
+      left top,
+      right top,
+      color-stop(1, #ff9933),
+      color-stop(0.15, #138808)
+    );
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+  }
+
+  live {
+    color: red;
+  }
+  
+
+  .credit {
+	font-size: 20px;
+	font-family: 'Roboto Condensed', sans-serif;
+	text-align: end;
+	padding: 5;
+}
+
+.heart {
+	fill: red;
+	position: relative;
+	top: 2px;
+	width: 15px;
+	animation: pulse 1s ease infinite;
+	font-size: 6px;
+}
+
+
+
+.statistics {
+  border: 0px solid red;
+  height: px;
+  width: 100%;
+  display: flex;
+}
+
+
+
